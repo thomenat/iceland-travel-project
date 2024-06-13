@@ -3,6 +3,10 @@ body {
 
 }
 
+blockquote {
+    margin: 30px 0;
+}
+
 .container {
     max-width: 1400px;
     margin: 0 auto;
@@ -32,6 +36,11 @@ body {
 .grid-3-columns-first-narrow {
     grid-template-columns: 1fr 2fr 2fr;
 }
+
+.instagram-embeds {
+    margin: 30px 0;
+}
+
 
 .card {
     background-color: white;
@@ -165,26 +174,26 @@ section.secondary {
     background: #F8F8F8;
 }
 
-footer {
+.page-footer {
     color: white;
     background-image: linear-gradient(rgba(39,32,68,0.8), rgba(39,32,68,0.9)), url('../media/volcano-footer.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-footer a {
+.page-footer a {
     color: white;
     opacity: 70%;
 }
 
-footer h3 {
+.page-footer h3 {
 font-size: 20px;
 font-weight: 700;
 line-height: 30px;
 text-align: left;
 }
 
-footer p {
+.page-footer p {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -192,12 +201,12 @@ footer p {
     opacity: 70%;
 }
 
-footer ul {
+.page-footer ul {
     margin: 0;
     padding: 0;
 }
 
-footer li {
+.page-footer li {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -252,6 +261,15 @@ footer li {
     .card-header img {
         height: 262px;
         width: 100%;
+    }
+
+    .card-text {
+        height: 460px;
+    }
+
+    .btn {
+        align-self: flex-end;
+        bottom: 0;
     }
     
 }
