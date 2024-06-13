@@ -16,7 +16,7 @@ blockquote {
 }
 
 .img-responsive {
-    width: 100%;
+    max-width: 100%;
     display: block;
 }
 
@@ -66,7 +66,6 @@ blockquote {
     gap: 10px;
     opacity: 0px;
     background: #462CB2;
-    
 }
 
 main h4 {
@@ -239,19 +238,19 @@ text-align: left;
         padding: 30px;
     }
 
-    footer {
+    page-footer {
         padding: 50px 80px;
     }
 
-    footer h3 {
+    page-footer h3 {
         font-size: 15px;
     }
 
-    footer p {
+    page-footer p {
         font-size: 12px;
     }
 
-    footer li {
+    page-footer li {
         font-size: 12px;
     }
 }
@@ -268,8 +267,12 @@ text-align: left;
     }
 
     .btn {
-        align-self: flex-end;
-        bottom: 0;
-    }
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 auto 50px auto;
     
+    
+    }
 }
